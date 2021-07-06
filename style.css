@@ -158,18 +158,36 @@ body {
   display: flex;
 }
 .singlecontent {
-  background: gray;
-  width: 262px;
-  margin: 44px 12px;
+  background: #ffffff;
+  width: 251px;
+  margin: 40px 15px;
+  box-shadow: 0px 0px 16px 0px;
+  padding: 19px;
+  border-radius: 11px;
 }
 .singlecontent img {
-  height: 195px;
-  width: 222px;
+  height: 175px;
+  width: 248px;
   border-radius: 18px;
 }
 .singlecontent h2 {
+  font-size: 39px;
+  font-weight: bold;
+  color: blue;
+}
+.singlecontent a {
+  text-decoration: none;
+}
+.singlecontent h2:hover {
+  font-size: 39px;
+  font-weight: bold;
+  color: rgb(243, 243, 250);
+  background-color: #110d0d;
 }
 .singlecontent p {
+  font-size: 21px;
+  line-height: 26px;
+  color: #00b100;
 }
 
 /* feedback section */
