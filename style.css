@@ -270,14 +270,17 @@ body {
 .footer {
   background-color: black;
   text-align: center;
-  padding:5px 0;
+  padding: 3px 0;
+}
+.food {
+  color: orangered;
+  font-size: 44px;
 }
 .footer h2 {
-  color: white;
-  font-size: 35px;
-
+  color: rgb(194, 130, 130);
+  font-size: 24px;
 }
 .footer p {
-  color: gainsboro;
-  font-size: 23px;
+  color: #aaa0fb;
+  font-size: 17px;
 }
