@@ -122,7 +122,7 @@ body {
 }
 .aboutleft img {
   height: 444px;
-  width: 444px;
+  width: 383px;
   border-radius: 100%;
 }
 .aboutright {
@@ -220,6 +220,8 @@ body {
   box-shadow: 0px 0px 8px 6px;
   width: 182px;
   text-align: center;
+  font-size: 26px;
+  font-weight: bold;
 }
 /* contact section */
 .contact {
