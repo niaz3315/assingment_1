@@ -228,18 +228,24 @@ body {
 .contactleft {
   float: left;
   width: 70%;
-}
-.contactleft {
   background: #ffeaea;
   padding: 22px;
 }
+.contactleft h2 {
+  font-size: 35px;
+  text-shadow: 2px 2px 3px;
+}
 .contactright {
   float: left;
-  width: 40%;
+  width: 66%;
   background: #ffeaea;
 }
 .contactright h2 {
+  text-align: center;
   font-size: 46px;
+  border-bottom: 3px solid gray;
+  padding: 10px 0px;
+  margin: 22px 89px;
 }
 .contactright ul {
   list-style: none;
@@ -255,8 +261,8 @@ body {
 }
 
 .contactright img {
-  width: 50px;
-  height: 50px;
+  width: 92px;
+  height: 98px;
   margin: 46px 0px;
 }
 
