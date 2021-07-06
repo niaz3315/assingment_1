@@ -25,22 +25,38 @@ body {
 }
 .navleft ul li a {
   display: block;
-
   text-decoration: none;
   text-transform: uppercase;
   font-size: 16px;
   font-weight: bold;
   color: white;
   margin: 0px 5px 5px 5px;
-  padding: 15px 10px 10px 0px;
+  padding: 1px 10px 10px 0px;
 }
 .navleft ul li a:hover {
+  color: white;
+  background: black;
+  padding: 5px;
 }
 .navright {
   float: right;
   width: 25%;
+  display: flex;
 }
 .search {
+}
+.search input[type="text"] {
+  background: gainsboro;
+  padding: 5px 5px;
+  border: 3px solid #522727;
+  margin: 13px 5px;
+}
+.go input[type="submit"] {
+  background: #ffd9d9;
+  border: 1px solid #654949;
+  padding: 6px;
+  margin: 12px 5px;
+  border-radius: 5px;
 }
 /* banner section */
 .banner {
@@ -192,48 +208,69 @@ body {
 
 /* feedback section */
 .feedback {
-  background: rgb(27, 80, 180);
+}
+.feedbackcontent {
   display: flex;
 }
-
-.mainmenu {
-  float: right;
-  width: 630px;
-  margin: 29px 0px 0px 0px;
+.feedbackwrite {
+  margin: 48px 43px;
+  padding: 22px 22px;
+  background: #efd4d4;
+  border: 2px solid blue;
+  box-shadow: 0px 0px 8px 6px;
+  width: 182px;
+  text-align: center;
 }
-.mainmenu ul {
+/* contact section */
+.contact {
+  display: flex;
+}
+.contactleft {
+  float: left;
+  width: 70%;
+}
+.contactleft {
+  background: #ffeaea;
+  padding: 22px;
+}
+.contactright {
+  float: left;
+  width: 40%;
+  background: #ffeaea;
+}
+.contactright h2 {
+  font-size: 46px;
+}
+.contactright ul {
   list-style: none;
-  padding: 0px 0px 0px 116px;
 }
-.mainmenu ul li {
+.contactright ul li {
   display: block;
   float: left;
-  margin-right: 20px;
-  margin-left: 0px;
 }
-.mainmenu ul li a {
+.contactright ul li a {
   display: block;
-  padding: 15px 10px 10px 0px;
   text-decoration: none;
-  text-transform: uppercase;
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 0px;
+}
+
+.contactright img {
+  width: 50px;
+  height: 50px;
+  margin: 46px 0px;
+}
+
+/* footer section */
+.footer {
+  background-color: black;
+  text-align: center;
+  padding: 33px 0;
+}
+.footer h2 {
   color: white;
-  margin: 0px 5px 5px 5px;
-  border-top: 2px solid transparent;
+  font-size: 55px;
 }
-.mainmenu ul li a:hover,
-#active {
-  border-top: 2px solid black;
-  color: #1a0707;
-}
-.mainmenu ul li a span {
-  color: black;
-  display: block;
-  font-size: 12px;
-  text-transform: lowercase;
-}
-#active {
-  border-top: 2px solid black;
-  color: #110d0d;
+.footer p {
+  color: gainsboro;
+  font-size: 23px;
 }
