@@ -74,6 +74,14 @@ body {
   padding: 10px 28px;
   border-radius: 28px;
 }
+.bannerleft a:hover {
+  background-image: -webkit-linear-gradient(
+    rgb(248, 247, 247),
+    rgb(9, 233, 65)
+  );
+  font-size: 23px;
+  color: rgb(0, 0, 0);
+}
 .bannerright {
   float: right;
   width: 50%;
@@ -85,13 +93,16 @@ body {
 
 /* about section */
 .about {
-  background-image: linear-gradient(45deg, black, transparent);
+  background-image: url(img/Frame\ 58.jpg);
   display: flex;
   margin-bottom: 55px;
+  background-repeat: no-repeat;
+  background-position: left;
 }
 .aboutleft {
   float: left;
   width: 50%;
+  margin: 30px 33px;
 }
 .aboutleft img {
   height: 444px;
@@ -99,7 +110,7 @@ body {
   border-radius: 100%;
 }
 .aboutright {
-  float: lerightft;
+  margin: 69px 42px;
   width: 50%;
 }
 .aboutright h2 {
@@ -107,13 +118,20 @@ body {
   color: #634949;
 }
 .aboutright p {
-  margin-bottom: 32px;
+  margin-bottom: 59px;
+  color: #1f1010;
+  font-size: 16px;
 }
 .aboutright a {
   text-decoration: none;
   background-image: linear-gradient(#e85959, #ffb6b6);
-  padding: 10px 25px;
-  border-radius: 44px;
+  padding: 14px 29px;
+  border-radius: 44px 11px;
+}
+.aboutright a:hover {
+  color: #110d0d;
+  font-size: 33px;
+  background-image: linear-gradient(#75dd2f, #3e87cc);
 }
 /* title section */
 .title {
