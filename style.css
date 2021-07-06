@@ -135,19 +135,20 @@ body {
 }
 /* title section */
 .title {
-  background: rgb(193, 196, 201);
+  background-image: url(img/Group\ 8449.png);
   text-align: center;
+  background-position: bottom;
 }
 .title h2 {
   font-size: 44px;
   font-weight: bold;
-  padding-top: 33px;
+  padding-top: 42px;
 }
 .title p {
-  margin: 0 320px;
-  font-size: 24px;
-  color: #845151;
-  padding-bottom: 22px;
+  margin: 0 216px;
+  font-size: 23px;
+  color: #d47a7a;
+  padding-bottom: 40px;
 }
 /* content section */
 .content {
