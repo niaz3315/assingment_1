@@ -270,11 +270,12 @@ body {
 .footer {
   background-color: black;
   text-align: center;
-  padding: 33px 0;
+  padding:5px 0;
 }
 .footer h2 {
   color: white;
-  font-size: 55px;
+  font-size: 35px;
+
 }
 .footer p {
   color: gainsboro;
